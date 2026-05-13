@@ -9,7 +9,7 @@ Este projeto apresenta o **Algorithm for Integer Optimization in Ellipsoids (AIO
 
 ### Diferenciais Técnicos:
 * **Estratégia de Fatiamento**: Redução de dimensão n → 2 priorizando eixos menores.
-* **Complexidade**: $O(n \lfloor a_2 \rfloor^{n-1})$.
+* **Complexidade**: x₂.
 * **Visualização**: Implementação de funções de fronteira fₐ e gₐ para varredura de vizinhança.
 
 ## 🎥 Demonstração Visual

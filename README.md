@@ -1,4 +1,5 @@
-# Algoritmo AIOE - VI ERMAC
+# VI ERMAC - Algoritmo(AIOE)
+
 Repositório acadêmico do algoritmo AIOE para submissão ao VI ERMAC 2026 (Salvador-BA). Contém PDF, animações e códigos.
 
 Repositório oficial para o trabalho submetido ao **VI Encontro Regional de Matemática Aplicada e Computacional (ERMAC-BA)**, realizado em Salvador.

@@ -1,4 +1,4 @@
-# Algoritmo(AIOE) - VI ERMAC
+# Algorithm for Integer Optimization in Ellipsoids - VI ERMAC
 
 Repositório acadêmico do algoritmo AIOE para submissão ao VI ERMAC 2026 (Salvador-BA). Contém PDF, animações e códigos.
 

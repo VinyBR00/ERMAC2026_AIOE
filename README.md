@@ -8,7 +8,7 @@ Repositório oficial para o trabalho submetido ao **VI Encontro Regional de Mate
 Este projeto apresenta o **Algorithm for Integer Optimization in Ellipsoids (AIOE)**. O foco da pesquisa é a otimização global em conjuntos convexos discretos utilizando fatiamento inteligente orientado pelos semieixos de menor magnitude.
 
 ### Diferenciais Técnicos:
-* **Estratégia de Fatiamento**: Redução de dimensão n → 2 priorizando eixos menores.
+* **Estratégia de Fatiamento**: Redução de dimensão (n → 2) priorizando eixos menores.
 * **Complexidade**: O(n⌊a₂⌋ⁿ⁻¹).
 * **Visualização**: Implementação de funções de fronteira fₐ e gₐ para varredura de vizinhança.
 

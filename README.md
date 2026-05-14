@@ -13,7 +13,11 @@ Este projeto apresenta o **Algorithm for Integer Optimization in Ellipsoids (AIO
 * **Visualização**: Implementação de funções de fronteira fₐ e gₐ para varredura de vizinhança.
 
 ## 🎥 Demonstração Visual
-Abaixo, a animação que ilustra a estratégia de busca começando pelo eixo menor (x₂), minimizando o número de iterações:
+O algoritmo prioriza o fatiamento pelo eixo menor, reduzindo a busca na fronteira.
+
+* **Animação 2D ($x_2$ primeiro):** [Confira aqui o vídeo da execução](animacao_aioe.mp4)
+* **Exemplo de Fatiamento em $\mathbb{R}^3$:**
+![Fatiamento R3](fatiamento.png)
 
 ![Animação AIOE](animacoes/animacao_aioe.gif)
 

@@ -12,12 +12,19 @@ Este projeto apresenta o **Algorithm for Integer Optimization in Ellipsoids (AIO
 * **Complexidade**: O(n⌊a₂⌋ⁿ⁻¹).
 * **Visualização**: Implementação de funções de fronteira fₐ e gₐ para varredura de vizinhança.
 
-## 🎥 Demonstração Visual
-O algoritmo prioriza o fatiamento pelo eixo menor, reduzindo a busca na fronteira.
+## 📐 Metodologia e Visualização
 
-* **Animação 2D (x_2 primeiro):** [Confira aqui o vídeo da execução](animacao_aioe.mp4)
-* **Exemplo de Fatiamento em $\mathbb{R}^3$:**
-![Fatiamento R3](Fatiamento.png)
+### 1. Fatiamento: Redução de Dimensão ($n \to 2$)
+O processo inicial do algoritmo consiste no fatiamento do elipsoide, isolando subespaços bidimensionais para viabilizar a busca exata. Abaixo, a ilustração da projeção no $\mathbb{R}^3$:
+
+![Fatiamento em R3](Fatiamento.png)
+
+---
+
+### 2. Comportamento do Algoritmo no Plano ($\mathbb{R}^2$)
+Após a redução de dimensão, o algoritmo executa a dinâmica de busca na fronteira. A animação abaixo detalha o deslocamento iniciando pelo salto vertical ($f_a$) no **eixo menor ($x_2$)**, seguido pelos ajustes horizontais ($g_a$):
+
+* [▶️ Assistir Animação do Deslocamento no YouTube](https://youtu.be/oF_kb5ebEnQ?si=rUEq3d32lTgR5pVV)
 
 ## 👤 Autores
 * **Marcos Vinícius Barreto dos Santos** (UFRB)

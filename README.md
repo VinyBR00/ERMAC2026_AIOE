@@ -24,7 +24,7 @@ O processo inicial do algoritmo consiste no fatiamento do elipsoide, isolando su
 ### 2. Comportamento do Algoritmo no Plano ($\mathbb{R}^2$)
 Após a redução de dimensão, o algoritmo executa a dinâmica de busca na fronteira. A animação abaixo detalha o deslocamento iniciando pelo salto vertical ($f_a$) no **eixo menor ($x_2$)**, seguido pelos ajustes horizontais ($g_a$):
 
-* [▶️ Assistir Animação do Deslocamento no YouTube](https://youtu.be/oF_kb5ebEnQ?si=rUEq3d32lTgR5pVV)
+* ▶️ [Assistir Animação do Deslocamento no YouTube](https://youtu.be/oF_kb5ebEnQ?si=rUEq3d32lTgR5pVV)
 
 ## 👤 Autores
 * **Marcos Vinícius Barreto dos Santos** (UFRB)

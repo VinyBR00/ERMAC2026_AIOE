@@ -14,8 +14,8 @@ Este projeto apresenta o **Algorithm for Integer Optimization in Ellipsoids (AIO
 
 ## 📐 Metodologia e Visualização
 
-### 1. Fatiamento: Redução de Dimensão ($n → 2$)
-O processo inicial do algoritmo consiste no fatiamento do elipsoide, isolando subespaços bidimensionais para viabilizar a busca exata. Abaixo, a ilustração da projeção no $ℝ³$:
+### 1. Fatiamento: Redução de Dimensão (n→2)
+O processo inicial do algoritmo consiste no fatiamento do elipsoide, isolando subespaços bidimensionais para viabilizar a busca exata. Abaixo, a ilustração da projeção no (ℝ³):
 
 ![Fatiamento em R3](Fatiamento.png)
 

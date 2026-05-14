@@ -17,7 +17,7 @@ O algoritmo prioriza o fatiamento pelo eixo menor, reduzindo a busca na fronteir
 
 * **Animação 2D ($x_2$ primeiro):** [Confira aqui o vídeo da execução](animacao_aioe.mp4)
 * **Exemplo de Fatiamento em $\mathbb{R}^3$:**
-![Fatiamento R3](fatiamento.png)
+![Fatiamento R3](Fatiamento.png)
 
 ## 👤 Autores
 * **Marcos Vinícius Barreto dos Santos** (UFRB)

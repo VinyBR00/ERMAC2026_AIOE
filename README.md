@@ -13,7 +13,7 @@ Abaixo, apresentamos o funcionamento do algoritmo sob duas perspectivas: uma did
 
 ### 1. Entendendo o Objetivo (Perspectiva Didática)
 Esta animação foi desenvolvida para facilitar a compreensão de quem está iniciando na área de Otimização Discreta. Ela ilustra como a reta da Função Objetivo desliza pela região factível até encontrar o ponto ótimo (4,1).
-* ▶️ [**Assista à Explicação do Objetivo no YouTube**](https://youtu.be/oF_kb5ebEnQ?si=rUEq3d32lTgR5pVV)
+* ▶️ [**Assista à Explicação do Objetivo no YouTube**](https://youtu.be/bKN_NNsvDd0?si=3sigzNJXPA29Twyz)
 
 ### 2. Dinâmica do Algoritmo (Perspectiva Técnica)
 Após o processo de **fatiamento** (n → 2), o algoritmo executa a busca na fronteira através das funções fₐ (salto vertical no eixo menor x₂) e gₐ (ajustes horizontais).

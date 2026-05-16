@@ -9,7 +9,7 @@ Repositório oficial do trabalho submetido ao
 
 Este projeto apresenta o  
 **Algorithm for Integer Optimization in Ellipsoids (AIOE)**,  
-um algoritmo voltado para otimização inteira em regiões elipsoidais convexas.
+um algoritmo voltado para otimização inteira em hiperelipsoides convexos.
 
 A proposta do método consiste em reduzir iterativamente o problema em ℝⁿ para subproblemas bidimensionais, utilizando fatiamentos orientados pelos menores semieixos do hiperelipsoide.
 

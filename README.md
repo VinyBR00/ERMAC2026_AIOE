@@ -56,7 +56,7 @@ Ao final do processo, os candidatos obtidos em cada fatia são comparados, permi
 
 ## 📺 Demonstrações Visuais
 
-Apresentamos abaixo duas animações complementares do algoritmo: uma abordagem técnica e outra introdutória.
+Apresentamos abaixo duas animações complementares do algoritmo: uma perspectiva técnica e outra didática.
 
 ### 1. Dinâmica do Algoritmo (Perspectiva Técnica)
 

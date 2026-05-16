@@ -21,15 +21,20 @@ A busca é realizada sobre os pontos inteiros mais próximos da fronteira da reg
 
 ### Fatiamento: Redução Dimensional (n→2)
 
-O algoritmo fixa (n-2) variáveis, transformando o problema original em uma sequência de problemas bidimensionais.
+O núcleo do algoritmo consiste em reduzir a dimensão do espaço de busca por meio da fixação de $(n-2)$ variáveis associadas aos semieixos de menor magnitude, restringindo o problema original a uma sequência ordenada de subespaços bidimensionais.
 
-A figura abaixo ilustra geometricamente o processo de fatiamento em \(ℝ³):
+A figura abaixo ilustra geometricamente esse processo de fatiamento, utilizando um elipsoide restrito ao primeiro octante (\mathbb{R}^3_+) como modelo didático:
 
 ![Fatiamento Inteligente](Redução_dimesional.png)
 
-Cada seção bidimensional gera um candidato ótimo local.  
-Ao final do processo, o algoritmo compara os candidatos encontrados e determina a melhor solução inteira do problema original.
+onde
+\[
+\mathbb{R}^3_+ := \{(x_1,x_2,x_3)\in \mathbb{R}^3 \mid x_i \ge 0\}.
+\]
 
+Como os semieixos obedecem à ordenação $a_3 < a_2 < a_1$, o algoritmo realiza o fatiamento ao longo do menor eixo ($x_3$), gerando seções elípticas planas para cada cota inteira no intervalo $[0, \lfloor a_3 \rfloor]$.
+
+Cada uma dessas seções bidimensionais define um subproblema plano, no qual uma busca exata local determina um candidato ótimo. Ao final do processo, as soluções obtidas em cada fatia são comparadas, e o algoritmo seleciona a melhor entre elas como solução inteira global do problema original.
 ---
 
 ## ⚙️ Diferenciais Técnicos

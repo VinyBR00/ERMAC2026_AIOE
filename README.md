@@ -17,7 +17,7 @@ Esta animação foi desenvolvida para facilitar a compreensão de quem está ini
 
 ### 2. Dinâmica do Algoritmo (Perspectiva Técnica)
 Após o processo de **fatiamento** (n → 2), o algoritmo executa a busca na fronteira através das funções fₐ (salto vertical no eixo menor x₂) e gₐ (ajustes horizontais).
-* ▶️ [**Assista à Animação do Deslocamento no YouTube**](https://youtu.be/oF_kb5ebEnQ?si=rUEq3d32lTgR5pVV)
+* ▶️ [**Assista à Animação do Deslocamento no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
 
 ---
 

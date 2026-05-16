@@ -23,7 +23,7 @@ Após o processo de **fatiamento** (n → 2), o algoritmo executa a busca na fro
 
 ## 📐 Metodologia
 
-### Fatiamento: Redução de Dimensão (n → 2)
+### Fatiamento: Redução de Dimensão (n→2)
 O processo inicial consiste em isolar subespaços bidimensionais para viabilizar a busca exata. Abaixo, a projeção no ℝ³:
 
 ![Fatiamento em R3](Fatiamento.png)

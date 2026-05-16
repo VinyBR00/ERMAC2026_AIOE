@@ -1,41 +1,72 @@
 # VI ERMAC_AIOE
 
-Repositório oficial para o trabalho submetido ao **VI Encontro Regional de Matemática Aplicada e Computacional (ERMAC-BA)**, Salvador-BA.
+Repositório oficial do trabalho submetido ao  
+**VI Encontro Regional de Matemática Aplicada e Computacional (ERMAC-BA)** — Salvador, BA.
+
+---
 
 ## 📝 Resumo
-Este projeto apresenta o **Algorithm for Integer Optimization in Ellipsoids (AIOE)**. A pesquisa foca na otimização global em conjuntos convexos discretos utilizando fatiamento inteligente orientado pelos semieixos de menor magnitude.
+
+Este projeto apresenta o  
+**Algorithm for Integer Optimization in Ellipsoids (AIOE)**,  
+um algoritmo voltado para otimização inteira em regiões elipsoidais convexas.
+
+A proposta do método consiste em reduzir iterativamente o problema em \(\mathbb{R}^n\) para subproblemas bidimensionais, utilizando fatiamentos orientados pelos menores semieixos da elipse/hiperelipsoide.
+
+A busca é realizada sobre os pontos inteiros mais próximos da fronteira da região viável, permitindo localizar candidatos ótimos de maneira eficiente.
+
+---
 
 ## 📐 Metodologia
 
-### Fatiamento: Redução de Dimensão (n→2)
-O processo inicial consiste em isolar subespaços bidimensionais para viabilizar a busca exata. Abaixo, a projeção no ℝ³:
+### Fatiamento: Redução Dimensional \((n \to 2)\)
+
+O algoritmo fixa \(n-2\) variáveis, transformando o problema original em uma sequência de problemas bidimensionais.
+
+A figura abaixo ilustra geometricamente o processo de fatiamento em \(\mathbb{R}^3\):
 
 ![Fatiamento em R3](Fatiamento.png)
 
-### Diferenciais Técnicos:
-* **Estratégia**: Priorização de eixos menores para minimizar iterações.
-* **Complexidade**: T(n,a) = O(n⌊a₂⌋ⁿ⁻¹).
-* **Comportamento**: Caracterizado como **pseudopolinomial** para dimensões fixas.
+Cada seção bidimensional gera um candidato ótimo local.  
+Ao final do processo, o algoritmo compara os candidatos encontrados e determina a melhor solução inteira do problema original.
+
+---
+
+## ⚙️ Diferenciais Técnicos
+
+- **Estratégia:** priorização dos menores semieixos para reduzir o número de iterações;
+- **Busca:** deslocamentos discretos orientados pela fronteira da região viável;
+- **Complexidade:**  
+  \[
+  T(n,a)=O\left(n\lfloor a_2\rfloor^{\,n-1}\right);
+  \]
+- **Comportamento:** pseudopolinomial para dimensões fixas.
 
 ---
 
 ## 📺 Demonstrações Visuais
 
-Abaixo, apresentamos o funcionamento do algoritmo sob duas perspectivas: uma outra técnica e uma didática, para facilitar a introdução ao tema, detalhando a mecânica interna de busca.
+Apresentamos abaixo duas animações complementares do algoritmo: uma abordagem técnica e outra introdutória.
 
 ### 1. Dinâmica do Algoritmo (Perspectiva Técnica)
-Após o processo de **fatiamento** (n → 2), o algoritmo executa a busca na fronteira através das funções fₐ e gₐ.
-* ▶️ [**Assista à Animação do Deslocamento no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
 
-### 2. Entendendo o Objetivo (Perspectiva Didática)
-Esta animação foi desenvolvida para facilitar a compreensão de quem está iniciando na área de Otimização Discreta. Ela ilustra como a reta da Função Objetivo desliza pela região factível até encontrar o ponto ótimo (4,1).
-* ▶️ [**Assista à Explicação do Objetivo no YouTube**](https://youtu.be/bKN_NNsvDd0?si=3sigzNJXPA29Twyz)
+Após o processo de fatiamento \((n \to 2)\), o algoritmo executa deslocamentos discretos na fronteira da região viável utilizando as funções \(f_a\) e \(g_a\).
+
+▶️ [**Assistir animação técnica no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
+
+---
+
+### 2. Interpretação Geométrica da Solução (Perspectiva Didática)
+
+Esta animação foi desenvolvida para introduzir conceitos básicos de Otimização Discreta.  
+Ela ilustra geometricamente como a função objetivo percorre a região factível até atingir o ponto ótimo inteiro.
+
+▶️ [**Assistir animação didática no YouTube**](https://youtu.be/bKN_NNsvDd0?si=3sigzNJXPA29Twyz)
 
 ---
 
 ## 👤 Autores
-* **Marcos Vinícius Barreto dos Santos** (UFRB)
-* **Lucas Ivonovith Peixoto Vilas Boas** (UFRB)
-* **Dr. Eleazar Gerardo Madriz Lozada** (Orientador - UFRB)
 
----
+- **Marcos Vinícius Barreto dos Santos** — UFRB  
+- **Lucas Ivonovith Peixoto Vilas Boas** — UFRB  
+- **Dr. Eleazar Gerardo Madriz Lozada** — Orientador (UFRB)

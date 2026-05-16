@@ -29,10 +29,10 @@ A figura abaixo ilustra geometricamente esse processo de fatiamento, utilizando 
 
 onde
 
-ℝ₊³ := {(,x₂,x_3) ∈ ℝ³ | x_i > 0}.
+ℝ₊³ := {(X₁,X₂,X₃) ∈ ℝ³ | X_i > 0}.
 
 
-Como os semieixos obedecem à ordenação $a_3 < a_2 < a_1$, o algoritmo realiza o fatiamento ao longo do menor eixo ($x_3$), gerando seções elípticas planas para cada cota inteira no intervalo $[0, \lfloor a_3 \rfloor]$.
+Como os semieixos obedecem à ordenação a₃<a₂<a₁, o algoritmo realiza o fatiamento ao longo do menor eixo (X₃), gerando seções elípticas planas para cada cota inteira no intervalo [0,⌊a₃⌋].
 
 Cada uma dessas seções bidimensionais define um subproblema plano, no qual uma busca exata local determina um candidato ótimo. Ao final do processo, as soluções obtidas em cada fatia são comparadas, e o algoritmo seleciona a melhor entre elas como solução inteira global do problema original.
 

@@ -25,7 +25,7 @@ O algoritmo fixa (n-2) variáveis, transformando o problema original em uma sequ
 
 A figura abaixo ilustra geometricamente o processo de fatiamento em \(ℝ³):
 
-![Fatiamento em R3](redução_dimensional.png)
+![Fatiamento Inteligente](Redução_dimesional.png)
 
 Cada seção bidimensional gera um candidato ótimo local.  
 Ao final do processo, o algoritmo compara os candidatos encontrados e determina a melhor solução inteira do problema original.

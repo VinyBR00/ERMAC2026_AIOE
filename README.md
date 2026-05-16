@@ -28,9 +28,9 @@ A figura abaixo ilustra geometricamente esse processo de fatiamento, utilizando 
 ![Fatiamento Inteligente](Redução_dimesional.png)
 
 onde
-\[
-ℝ₊³ := \{(x_1,x_2,x_3)\in \mathbb{R}^3 \mid x_i \ge 0\}.
-\]
+
+ℝ₊³ := {(,x₂,x_3) ∈ ℝ³ | x_i > 0}.
+
 
 Como os semieixos obedecem à ordenação $a_3 < a_2 < a_1$, o algoritmo realiza o fatiamento ao longo do menor eixo ($x_3$), gerando seções elípticas planas para cada cota inteira no intervalo $[0, \lfloor a_3 \rfloor]$.
 

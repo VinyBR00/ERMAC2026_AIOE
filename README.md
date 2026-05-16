@@ -21,15 +21,15 @@ A busca é realizada sobre os pontos inteiros mais próximos da fronteira da reg
 
 ### Fatiamento: Redução Dimensional (n→2)
 
-O núcleo do algoritmo consiste em reduzir a dimensão do espaço de busca por meio da fixação de $(n-2)$ variáveis associadas aos semieixos de menor magnitude, restringindo o problema original a uma sequência ordenada de subespaços bidimensionais.
+O núcleo do algoritmo consiste em reduzir a dimensão do espaço de busca por meio da fixação de (n-2) variáveis associadas aos semieixos de menor magnitude, restringindo o problema original a uma sequência ordenada de subespaços bidimensionais.
 
-A figura abaixo ilustra geometricamente esse processo de fatiamento, utilizando um elipsoide restrito ao primeiro octante (\mathbb{R}^3_+) como modelo didático:
+A figura abaixo ilustra geometricamente esse processo de fatiamento, utilizando um elipsoide restrito ao primeiro octante (ℝ₊³) como modelo didático:
 
 ![Fatiamento Inteligente](Redução_dimesional.png)
 
 onde
 \[
-\mathbb{R}^3_+ := \{(x_1,x_2,x_3)\in \mathbb{R}^3 \mid x_i \ge 0\}.
+ℝ₊³ := \{(x_1,x_2,x_3)\in \mathbb{R}^3 \mid x_i \ge 0\}.
 \]
 
 Como os semieixos obedecem à ordenação $a_3 < a_2 < a_1$, o algoritmo realiza o fatiamento ao longo do menor eixo ($x_3$), gerando seções elípticas planas para cada cota inteira no intervalo $[0, \lfloor a_3 \rfloor]$.

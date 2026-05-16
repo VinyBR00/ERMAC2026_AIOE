@@ -13,7 +13,7 @@ um algoritmo voltado para otimização inteira em regiões elipsoidais convexas.
 
 A proposta do método consiste em reduzir iterativamente o problema em ℝⁿ para subproblemas bidimensionais, utilizando fatiamentos orientados pelos menores semieixos do hiperelipsoide.
 
-A busca é realizada sobre os pontos inteiros mais próximos da fronteira da região viável, permitindo localizar candidatos ótimos de maneira eficiente.
+A busca é conduzida sobre pontos inteiros próximos à fronteira da região viável, permitindo localizar candidatos ótimos de maneira eficiente.
 
 ---
 ## 📐 Metodologia

@@ -16,6 +16,18 @@ A proposta do método consiste em reduzir iterativamente o problema em ℝⁿ pa
 A busca é conduzida sobre pontos inteiros próximos à fronteira da região viável, permitindo localizar candidatos ótimos de maneira eficiente.
 
 ---
+
+## 🔬 Estrutura Matemática
+
+O problema estudado consiste na maximização de uma função linear sobre pontos inteiros não negativos pertencentes a um hiperelipsoide:
+
+
+max{c^Tx | xQx ≤ 1, x ∈ ℤ₊ⁿ}.
+
+
+O algoritmo AIOE explora geometricamente as seções bidimensionais induzidas pelo processo de fatiamento, realizando buscas discretas orientadas pelas funções auxiliares de fronteira (fₐ) e (gₐ).
+
+---
 ## 📐 Metodologia
 
 ### Fatiamento: Redução Dimensional (n→2)

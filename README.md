@@ -29,7 +29,7 @@ A figura abaixo ilustra geometricamente esse processo de fatiamento, utilizando 
 
 onde
 
-ℝ₊³ := {(X₁,X₂,X₃) ∈ ℝ³ | X_i > 0}.
+ℝ₊³ := {(X₁,X₂,X₃) ∈ ℝ³ | X_i ≥ 0}.
 
 
 Como os semieixos obedecem à ordenação a₃<a₂<a₁, o algoritmo realiza o fatiamento ao longo do menor eixo (X₃), gerando seções elípticas planas para cada cota inteira no intervalo [0 , ⌊a₃⌋].

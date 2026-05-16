@@ -36,7 +36,7 @@ O núcleo do algoritmo consiste na redução da dimensão do espaço de busca po
 
 A figura abaixo ilustra geometricamente esse processo de fatiamento, utilizando um elipsoide restrito ao primeiro octante (ℝ₊³) como modelo didático:
 
-![Redução_Dimensional](Reducao_Dimensional.png)
+![Redução_Dimensional](Redução_Dimensional.png)
 
 onde
 

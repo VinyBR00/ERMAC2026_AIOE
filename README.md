@@ -87,6 +87,9 @@ Ela ilustra geometricamente como a função objetivo percorre a região factíve
 
 ## 👤 Autores
 
-- **Marcos Vinícius Barreto dos Santos** — UFRB  
-- **Lucas Ivonovith Peixoto Vilas Boas** — UFRB  
-- **Dr. Eleazar Gerardo Madriz Lozada** — Orientador (UFRB)
+* **Marcos Vinícius Barreto dos Santos** (UFRB)
+  * ✉️ [vinybarreto@aluno.ufrb.edu.br](mailto:vinybarreto@aluno.ufrb.edu.br)
+* **Lucas Ivonovith Peixoto Vilas Boas** (UFRB)
+  * ✉️ [lucasipvb@aluno.ufrb.edu.br](mailto:lucasipvb@aluno.ufrb.edu.br)
+* **Dr. Eleazar Gerardo Madriz Lozada** (Orientador - UFRB)
+  * ✉️ [eleazar@ufrb.edu.br](mailto:eleazar@ufrb.edu.br)

@@ -22,7 +22,7 @@ A busca é conduzida sobre pontos inteiros próximos à fronteira da região vi�
 O problema estudado consiste na maximização de uma função linear sobre pontos inteiros não negativos pertencentes a um hiperelipsoide:
 
 
-max{c^Tx | xQx ≤ 1, x ∈ ℤ₊ⁿ}.
+max{cᵗx | xᵗQx ≤ 1, x ∈ ℤ₊ⁿ}.
 
 
 O algoritmo AIOE explora geometricamente as seções bidimensionais induzidas pelo processo de fatiamento, realizando buscas discretas orientadas pelas funções auxiliares de fronteira (fₐ) e (gₐ).

@@ -11,7 +11,7 @@ Este projeto apresenta o
 **Algorithm for Integer Optimization in Ellipsoids (AIOE)**,  
 um algoritmo voltado para otimização inteira em regiões elipsoidais convexas.
 
-A proposta do método consiste em reduzir iterativamente o problema em \(\mathbb{R}^n\) para subproblemas bidimensionais, utilizando fatiamentos orientados pelos menores semieixos da elipse/hiperelipsoide.
+A proposta do método consiste em reduzir iterativamente o problema em ℝⁿ para subproblemas bidimensionais, utilizando fatiamentos orientados pelos menores semieixos da elipse/hiperelipsoide.
 
 A busca é realizada sobre os pontos inteiros mais próximos da fronteira da região viável, permitindo localizar candidatos ótimos de maneira eficiente.
 
@@ -19,11 +19,11 @@ A busca é realizada sobre os pontos inteiros mais próximos da fronteira da reg
 
 ## 📐 Metodologia
 
-### Fatiamento: Redução Dimensional \((n \to 2)\)
+### Fatiamento: Redução Dimensional (n→2)
 
-O algoritmo fixa \(n-2\) variáveis, transformando o problema original em uma sequência de problemas bidimensionais.
+O algoritmo fixa (n-2) variáveis, transformando o problema original em uma sequência de problemas bidimensionais.
 
-A figura abaixo ilustra geometricamente o processo de fatiamento em \(\mathbb{R}^3\):
+A figura abaixo ilustra geometricamente o processo de fatiamento em \(ℝ³):
 
 ![Fatiamento em R3](Fatiamento.png)
 
@@ -37,9 +37,7 @@ Ao final do processo, o algoritmo compara os candidatos encontrados e determina 
 - **Estratégia:** priorização dos menores semieixos para reduzir o número de iterações;
 - **Busca:** deslocamentos discretos orientados pela fronteira da região viável;
 - **Complexidade:**  
-  \[
-  T(n,a)=O\left(n\lfloor a_2\rfloor^{\,n-1}\right);
-  \]
+  T(n,a)=O(n⌊a₂⌋ⁿ⁻¹);
 - **Comportamento:** pseudopolinomial para dimensões fixas.
 
 ---
@@ -50,7 +48,7 @@ Apresentamos abaixo duas animações complementares do algoritmo: uma abordagem 
 
 ### 1. Dinâmica do Algoritmo (Perspectiva Técnica)
 
-Após o processo de fatiamento \((n \to 2)\), o algoritmo executa deslocamentos discretos na fronteira da região viável utilizando as funções \(f_a\) e \(g_a\).
+Após o processo de fatiamento (n→2), o algoritmo executa deslocamentos discretos na fronteira da região viável utilizando as funções (fₐ) e (gₐ).
 
 ▶️ [**Assistir animação técnica no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
 
